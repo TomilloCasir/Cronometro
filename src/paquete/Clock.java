@@ -10,6 +10,12 @@ public class Clock {
     private Thread t;
     volatile boolean threadStopper;
 
+    /**
+     * Inicializa un clock
+     * @param segundos
+     * @param minutos
+     * @param horas 
+     */
     public Clock(int segundos, int minutos, int horas) {
         this.segundos = segundos;
         this.minutos = minutos;
@@ -17,7 +23,6 @@ public class Clock {
     }
 
     public Clock() {
-
     }
 
     public void ejecutarThread(JLabel lblTime) {
