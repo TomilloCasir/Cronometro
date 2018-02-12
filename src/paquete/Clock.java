@@ -22,6 +22,9 @@ public class Clock {
         this.horas = horas;
     }
 
+    /**
+     * Default constructor
+     */
     public Clock() {
     }
 
